@@ -58,7 +58,7 @@ const VIcon = mixins(
     // Component data for both font and svg icon.
     getDefaultData (): VNodeData {
       const data: VNodeData = {
-        staticClass: 'v-icon',
+        staticClass: 'v-icon notranslate',
         class: {
           'v-icon--disabled': this.disabled,
           'v-icon--left': this.left,
